@@ -1,10 +1,11 @@
 # Add  code here!
 
-def prime?(integer)
-  if integer <= 1
-    return false
-  else integer > 1
-    integer % 1 == 0 && integer % integer == 0
-    rerurn true
+def prime?(num)
+  #Using a while loop
+  i = 2
+  while i < num
+    return false if num % i == 0
+    i += 1
 end
+   true
 end
