@@ -11,3 +11,4 @@ def prime?(integer)
     i = i + 1
   end
 end
+end
